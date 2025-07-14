@@ -86,7 +86,7 @@ const WhatCommunityMembersSay = () => {
   };
   return (
     <div
-      className="relative"
+      className="relative my-12 md:my-24"
       style={{
         backgroundImage: `url(${bg.src})`,
         backgroundSize: "cover",

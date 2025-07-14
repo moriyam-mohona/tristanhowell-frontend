@@ -4,7 +4,7 @@ import React from "react";
 
 const EmpoweringFamilies = () => {
   return (
-    <Container>
+    <Container className="my-12 md:my-24">
       <div className="space-y-4 flex flex-col items-center">
         <h2 className="text-secondary text-3xl md:text-4xl xl:text-[60px] !font-bold max-w-3xl text-center">
           Empowering Families with Safety Skills

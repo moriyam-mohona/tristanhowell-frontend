@@ -5,7 +5,7 @@ import sponsors from "@/assets/home/sponsors.png";
 const Sponsors = () => {
   return (
     <div
-      className="relative w-full bg-gradient-to-t from-primary to-white"
+      className="relative w-full bg-gradient-to-t from-primary to-white mt-12 md:mt-24"
       style={{ aspectRatio: "3/1" }}
     >
       {" "}

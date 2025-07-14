@@ -32,7 +32,7 @@ const NavBar = () => {
     { name: "Courses", href: "/courses" },
     { name: "Store", href: "/store" },
     { name: "News", href: "/news" },
-    { name: "Connect", href: "/contact" },
+    { name: "Connect", href: "/connect" },
   ];
 
   const toggleMenu = () => {

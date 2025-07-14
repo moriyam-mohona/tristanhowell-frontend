@@ -1,4 +1,4 @@
-import LatestNews from "@/components/pages/home/LatestNews/LatestNews";
+import LatestNews from "@/components/pages/website/home/LatestNews/LatestNews";
 import React from "react";
 
 const NewsPage = () => {

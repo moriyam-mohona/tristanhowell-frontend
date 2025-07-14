@@ -43,7 +43,6 @@ const MyFormTextArea = ({
     }
   }, [value, name, setValue]);
 
-
   return (
     <div>
       <Controller
@@ -67,7 +66,7 @@ const MyFormTextArea = ({
                 {...field}
                 id={name}
                 size="large"
-                rows={4}
+                rows={7}
                 className={cn("w-full", inputClassName)}
                 placeholder={placeHolder}
               />

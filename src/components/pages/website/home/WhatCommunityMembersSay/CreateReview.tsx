@@ -56,7 +56,7 @@ const CreateReview = () => {
         />
         <button
           type="submit"
-          className="bg-primary text-white text-base font-medium w-full py-3 rounded-lg"
+          className="bg-primary text-white text-base font-medium w-full py-3 rounded-lg cursor-pointer"
         >
           Submit Review
         </button>

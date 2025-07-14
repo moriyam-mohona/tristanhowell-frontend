@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #3ab3b6;
+  --color-secondary: #c12114;
+  --color-gray: #d9d9d9;
+  --color-black-secondary: #667085;
+  --color-green: #7ce937;
+  --color-orange: #c17100;
+
+  /* add breakpoint */
+  --breakpoint-xs: 540px;
+}
+
+:root {
+  --font-onest: "Onest", sans-serif;
+}
+body {
+  font-family: var(--font-onest);
+}
+
+html {
+  scroll-behavior: smooth;
+}

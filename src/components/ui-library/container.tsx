@@ -19,7 +19,7 @@ const containerVariants = cva(
       padding: {
         none: "p-0",
         sm: "p-2",
-        md: "p-4",
+        md: "p-1",
         lg: "p-6",
         xl: "p-8",
       },

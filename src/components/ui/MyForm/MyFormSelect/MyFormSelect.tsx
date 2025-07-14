@@ -13,7 +13,7 @@ interface MyFormSelectProps {
   name: string;
   options?: SelectProps["options"];
   disabled?: boolean;
-  mode?: "multiple" | "tags"; 
+  mode?: "multiple" | "tags";
   placeHolder: string;
   className?: string;
   isSearch?: boolean;

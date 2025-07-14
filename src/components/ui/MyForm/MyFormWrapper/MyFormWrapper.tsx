@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-'use client';
-import { FormProvider, useForm } from 'react-hook-form';
+"use client";
+import { FormProvider, useForm } from "react-hook-form";
 
-import { ConfigProvider } from 'antd';
-import { cn } from '@/lib/utils';
+import { ConfigProvider } from "antd";
+import { cn } from "@/lib/utils";
 
 const MyFormWrapper = ({
   onSubmit,
@@ -16,16 +16,16 @@ const MyFormWrapper = ({
   className?: string;
   children: React.ReactNode;
   defaultValues?: any;
-  resolver?: import('react-hook-form').Resolver<any, any>;
+  resolver?: import("react-hook-form").Resolver<any, any>;
 }) => {
   const formConfig: Record<string, any> = {};
 
   if (defaultValues) {
-    formConfig['defaultValues'] = defaultValues;
+    formConfig["defaultValues"] = defaultValues;
   }
 
   if (resolver) {
-    formConfig['resolver'] = resolver;
+    formConfig["resolver"] = resolver;
   }
 
   const methods = useForm(formConfig);
@@ -40,24 +40,23 @@ const MyFormWrapper = ({
       theme={{
         components: {
           Select: {
-            hoverBorderColor: '#02ACEE',
-            activeBorderColor: '#02ACEE',
-            
+            hoverBorderColor: "#02ACEE",
+            activeBorderColor: "#02ACEE",
           },
           Input: {
-            hoverBorderColor: '#02ACEE',
-            activeBorderColor: '#02ACEE',
+            hoverBorderColor: "#02ACEE",
+            activeBorderColor: "#02ACEE",
 
-            colorText: '#1F4529',
+            colorText: "#1F4529",
           },
           Checkbox: {
-            colorBorder: '#02ACEE',
-            colorPrimary: '#02ACEE',
-            colorPrimaryHover: '#02ACEE',
+            colorBorder: "#02ACEE",
+            colorPrimary: "#02ACEE",
+            colorPrimaryHover: "#02ACEE",
           },
           DatePicker: {
             // colorPrimary: '#1F4529',
-            colorPrimaryHover: '#02ACEE',
+            colorPrimaryHover: "#02ACEE",
             // colorBorder: '#1F4529',
             // colorText: '#1F4529',
             // colorTextDisabled: '#1F4529',
@@ -66,7 +65,7 @@ const MyFormWrapper = ({
       }}
     >
       <FormProvider {...methods}>
-        <form className={cn('', className)} onSubmit={handleSubmit(submit)}>
+        <form className={cn("", className)} onSubmit={handleSubmit(submit)}>
           {children}
         </form>
       </FormProvider>

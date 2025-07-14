@@ -6,7 +6,7 @@ import { Container } from "@/components/ui-library/container";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <div className="mt-24 relative bg-primary text-white h-full overflow-hidden">
+    <div className="relative bg-primary text-white h-full overflow-hidden">
       <Container>
         <footer className="pt-10 md:pt-20 lg:pt-24 text-white">
           {/* Top Section */}

@@ -1,16 +1,17 @@
 import React from "react";
 import Banner from "./Banner/Banner";
-import LoginWithGoogle from "@/components/LoginWithGoogle";
-import Example from "./Example/Example";
-import { Container } from "@/components/ui-library/container";
+import Sponsors from "./Sponsors/Sponsors";
+import LatestNews from "./LatestNews/LatestNews";
+import WhatCommunityMembersSay from "./WhatCommunityMembersSay/WhatCommunityMembersSay";
 
 const HomeComponent = () => {
   return (
-    <Container >
+    <>
       <Banner />
-      <Example />
-      <LoginWithGoogle />
-    </Container> 
+      <WhatCommunityMembersSay />
+      <LatestNews />
+      <Sponsors />
+    </>
   );
 };
 

@@ -32,7 +32,7 @@ const NewsCard: React.FC<NewsCardProps> = ({
         alt="news image"
         width={800}
         height={800}
-        className="w-[416px] xl:h-[200px] 2xl:h-[250px] object-cover rounded-t-xl"
+        className=" lg:w-[416px] h-[200px] 2xl:h-[250px] object-cover rounded-t-xl"
       />
       <div className="p-5 lg:p-3 xl:p-5">
         {/* Icons  */}

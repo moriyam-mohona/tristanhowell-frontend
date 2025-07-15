@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const LatestNews = () => {
   return (
-    <Container className="space-y-20 my-12 md:my-24">
+    <Container className="space-y-20">
       <SectionHeader
         title="Latest News"
         subtitle="Real stories from students, mentors, and parents who trust SafeSavvyKids for safe and smart learning."

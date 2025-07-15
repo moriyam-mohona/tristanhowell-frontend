@@ -323,7 +323,7 @@ const CoursesCard = ({
         <div className="flex justify-between items-center">
           <p className="text-xl 2xl:text-[28px] font-bold">{price}</p>
           <Link
-            href={`/news/${id}`}
+            href={`/courses/${id}`}
             className="text-black font-semibold hover:underline cursor-pointer flex items-center gap-2"
           >
             Preview Course

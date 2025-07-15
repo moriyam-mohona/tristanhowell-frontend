@@ -5,10 +5,12 @@ import React from "react";
 
 const CoursesPage = () => {
   return (
-    <Container className="my-12 md:my-24 space-y-10 md:space-y-20">
-      <CoursesHeader />
-      <CoursesCards />
-    </Container>
+    <div className="bg-gray/20 ">
+      <Container className="py-12 md:py-24 space-y-10 md:space-y-32">
+        <CoursesHeader />
+        <CoursesCards />
+      </Container>
+    </div>
   );
 };
 

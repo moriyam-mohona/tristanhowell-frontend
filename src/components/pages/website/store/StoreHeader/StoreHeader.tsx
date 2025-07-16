@@ -1,10 +1,10 @@
 "use client";
 
-import SectionHeader from "@/components/shared/SectionHeader/SectionHeader";
 import React from "react";
 import { useState } from "react";
 import { Select, Button } from "antd";
 import { IoSearchOutline } from "react-icons/io5";
+import { SectionHeader } from "@/components/shared/SectionHeader/SectionHeader";
 
 const StoreHeader = () => {
   const [selectedCategory, setSelectedCategory] = useState<string | undefined>(

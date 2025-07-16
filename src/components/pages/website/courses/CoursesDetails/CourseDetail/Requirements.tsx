@@ -1,12 +1,13 @@
+import { SectionHeaderTwo } from "@/components/shared/SectionHeader/SectionHeader";
 import React from "react";
 
 const Requirements = () => {
   return (
     <div className="">
-      <h2 className="font-bold text-2xl mb-4">Requirements: </h2>
+      <SectionHeaderTwo title="Requirements: " />
 
-      <div className="space-y-3">
-        <h2 className="flex items-center gap-2 text-black-secondary lg:text-lg">
+      <div className="space-y-3 mt-6">
+        <h2 className="flex items-center gap-4 text-black-secondary lg:text-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="18"
@@ -38,7 +39,7 @@ const Requirements = () => {
           </svg>
           Access to internet
         </h2>
-        <h2 className="flex items-center gap-2 text-black-secondary lg:text-lg">
+        <h2 className="flex items-center gap-4 text-black-secondary lg:text-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="18"
@@ -70,7 +71,7 @@ const Requirements = () => {
           </svg>
           A notebook/pencil (for practice)
         </h2>
-        <h2 className="flex items-center gap-2 text-black-secondary lg:text-lg">
+        <h2 className="flex items-center gap-4 text-black-secondary lg:text-lg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="18"

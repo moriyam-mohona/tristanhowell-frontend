@@ -1,5 +1,5 @@
 import NewsCard from "@/components/shared/Cards/NewsCard";
-import SectionHeader from "@/components/shared/SectionHeader/SectionHeader";
+import { SectionHeader } from "@/components/shared/SectionHeader/SectionHeader";
 import { Container } from "@/components/ui-library/container";
 import { newsData } from "@/utils/dummyData/newsData";
 import Link from "next/link";

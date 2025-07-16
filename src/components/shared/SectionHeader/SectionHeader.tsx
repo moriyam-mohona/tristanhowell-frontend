@@ -7,7 +7,7 @@ interface SectionHeaderProps {
   textAlign?: "center" | "start";
 }
 
-const SectionHeader: React.FC<SectionHeaderProps> = ({
+export const SectionHeader: React.FC<SectionHeaderProps> = ({
   title,
   subtitle,
   itemsAlign = "center",
@@ -29,4 +29,18 @@ const SectionHeader: React.FC<SectionHeaderProps> = ({
   );
 };
 
-export default SectionHeader;
+export const SectionHeaderTwo: React.FC<SectionHeaderProps> = ({
+  title,
+  itemsAlign = "start",
+  textAlign = "start",
+}) => {
+  return (
+    <div className={`flex flex-col items-${itemsAlign}`}>
+      <h2
+        className={`text-black text-xl xl:text-2xl !font-bold max-w-3xl text-${textAlign}`}
+      >
+        {title}
+      </h2>
+    </div>
+  );
+};

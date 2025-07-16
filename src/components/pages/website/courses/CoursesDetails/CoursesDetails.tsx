@@ -7,6 +7,7 @@ import CourseDetailDescriptions from "./CourseDetail/CourseDetailDescriptions";
 import InstructorInfo from "./CourseDetail/InstructorInfo";
 import Requirements from "./CourseDetail/Requirements";
 import CourseModuleList from "./CourseDetail/CourseModuleList";
+import CourseReview from "./CourseDetail/CourseReview";
 
 const CoursesDetails = () => {
   return (
@@ -18,8 +19,9 @@ const CoursesDetails = () => {
         <CourseModuleList />
         <InstructorInfo />
         <Requirements />
+        <CourseReview />
       </div>
-      <div className="lg:col-span-4 mt-20">
+      <div className="lg:col-span-4 mt-20 lg:mt-0">
         <SuggestedCourses />
       </div>
     </Container>

@@ -1,7 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 
-import SectionHeader from "@/components/shared/SectionHeader/SectionHeader";
 import { Container } from "@/components/ui-library/container";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
@@ -18,6 +17,7 @@ import SharedModal from "@/components/shared/Modal/SharedModal";
 import MyFormWrapper from "@/components/ui/MyForm/MyFormWrapper/MyFormWrapper";
 import MyFormInput from "@/components/ui/MyForm/MyFormInput/MyFormInput";
 import CreateReview from "./CreateReview";
+import { SectionHeader } from "@/components/shared/SectionHeader/SectionHeader";
 
 const testimonialsData = [
   {

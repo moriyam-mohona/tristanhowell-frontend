@@ -1,4 +1,4 @@
-import SectionHeader from "@/components/shared/SectionHeader/SectionHeader";
+import { SectionHeader } from "@/components/shared/SectionHeader/SectionHeader";
 import React from "react";
 
 const ConnectInfo = () => {

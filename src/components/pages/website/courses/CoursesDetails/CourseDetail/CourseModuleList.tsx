@@ -1,3 +1,4 @@
+import { SectionHeaderTwo } from "@/components/shared/SectionHeader/SectionHeader";
 import React from "react";
 
 const CourseModuleList = () => {
@@ -17,7 +18,7 @@ const CourseModuleList = () => {
   ];
   return (
     <div>
-      <h2 className="font-bold text-2xl">Course Module List:</h2>
+      <SectionHeaderTwo title="Course Module List:" />
       <ul className="mt-4 space-y-2 lg:text-lg text-black-secondary ml-5">
         {modules.map((item, index) => (
           <li key={index} className="flex items-center gap-3">

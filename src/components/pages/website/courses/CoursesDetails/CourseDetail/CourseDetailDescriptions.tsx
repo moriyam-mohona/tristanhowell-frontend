@@ -1,10 +1,11 @@
+import { SectionHeaderTwo } from "@/components/shared/SectionHeader/SectionHeader";
 import React from "react";
 
 const CourseDetailDescriptions = () => {
   return (
     <div className="mt-10 space-y-20">
       <div>
-        <h2 className="font-bold text-2xl">Course Description:</h2>
+        <SectionHeaderTwo title="Course Description:" />
         <p className="mt-6 lg:text-lg text-black-secondary">
           In a world full of unexpected situations, every child deserves to feel
           confident and capable.
@@ -27,7 +28,7 @@ const CourseDetailDescriptions = () => {
         </ul>
       </div>
       <div>
-        <h2 className="font-bold text-2xl">What You’ll Learn!</h2>
+        <SectionHeaderTwo title="What You’ll Learn!" />
         <ul className="list-disc list-inside mt-4 space-y-2 lg:text-lg text-black-secondary ml-5">
           <li>Recognize different types of emergencies</li>
           <li>React with calm and confidence</li>
